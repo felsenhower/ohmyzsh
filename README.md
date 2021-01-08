@@ -1,3 +1,50 @@
+<span style="color:red">
+
+This is my fork of oh-my-zsh.
+
+At the moment, the only differences are that the following plugins have been added as submodules:
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+
+### Custom install instructions:
+
+1. Install oh-my-zsh like described in [Getting Started](#getting-started).<br/>
+   This should...
+    * Download oh-my-zsh
+    * Clone it into something like `~/.oh-my-zsh`
+    * Create a `~/.zshrc` that loads oh-my-zsh
+    * Write the path of oh-my-zsh into a variable `$ZSH`
+2. Disable auto-update for oh-my-zsh (this is necessary, because auto-update breaks the fork and I didn't tinker with the update mechanism, see [Still Getting Updates](#still-getting-updates)):<br/>
+    * Open the `~/.zshrc`
+    * Uncomment (or add) the line that says:<br/>
+      `DISABLE_AUTO_UPDATE=true`
+3. Go into the oh-my-zsh directory:<br/>
+   `$ cd "$ZSH"`
+4. Set the url of the remote "origin" to this repository:<br/>
+   `$ git remote set-url origin https://github.com/felsenhower/ohmyzsh`
+5. Checkout the `ruben` branch:<br/>
+   `$ git checkout ruben`
+6. Acquire the submodules:<br/>
+   `$ git submodule init`<br/>
+   `$ git submodule update`
+7. Reload the `~/.zshrc`:<br/>
+   `$ source ~/.zshrc`
+8. Done
+
+### Still getting updates
+
+```
+$ cd "$ZSH"`
+$ git pull
+```
+
+</span>
+
+↓ ↓ ↓ *Original README.md below* ↓ ↓ ↓
+
+---
+
 <p align="center"><img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh"></p>
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
