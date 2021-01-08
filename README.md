@@ -1,3 +1,5 @@
+# ohmyzsh 
+
 This is my fork of oh-my-zsh.
 
 At the moment, the only differences are that the following plugins have been added as submodules:
@@ -5,7 +7,7 @@ At the moment, the only differences are that the following plugins have been add
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
 
-### Custom install instructions:
+### Custom Install Instructions:
 
 1. Install oh-my-zsh like described in [Getting Started](#getting-started).<br/>
    This should...
@@ -30,7 +32,7 @@ At the moment, the only differences are that the following plugins have been add
    `$ source ~/.zshrc`
 8. Done
 
-### Still getting updates
+### Still Getting Updates
 
 ```
 $ cd "$ZSH"`
