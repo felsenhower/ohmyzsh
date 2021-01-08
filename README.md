@@ -1,5 +1,3 @@
-<span style="color:red">
-
 This is my fork of oh-my-zsh.
 
 At the moment, the only differences are that the following plugins have been added as submodules:
@@ -38,8 +36,6 @@ At the moment, the only differences are that the following plugins have been add
 $ cd "$ZSH"`
 $ git pull
 ```
-
-</span>
 
 ↓ ↓ ↓ *Original README.md below* ↓ ↓ ↓
 
